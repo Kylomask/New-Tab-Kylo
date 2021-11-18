@@ -4,7 +4,7 @@ var ground,ground2,groundImg,runman,runimg,spike,spikeImg,spikeG,coin,coinImg,co
 var score = 0
 var hiscore = 0
 var gameState = 0
-cursor,cursorImg;
+var cursor,cursorImg;
 var app1,app1Img;
 var app2,app2Img;
 var app3,app3Img;
@@ -22,7 +22,7 @@ function preload(){
   spikeImg = loadImage("spike.png");
   coinImg = loadImage("Coin.png");
   coinget = loadSound("coinget.mp3");
-  wait = loadSound("new_tab_game_wait.mp3");
+//   wait = loadSound("new_tab_game_wait.mp3");
   play = loadSound("new_tab_game.mp3");
   app1Img = loadImage("scratch.png");
   app2Img = loadImage("github.png");
@@ -37,7 +37,7 @@ function preload(){
 }
 
 function setup() {
-  wait.loop()
+//   wait.loop()
   createCanvas(windowWidth, windowHeight);
   title = createSprite(width/2,height/4)
   title.addImage(titleImg)
@@ -204,6 +204,6 @@ function handleDanger(){
   }
 }
 function music(){
-  wait.stop()
+//   wait.stop()
   play.loop()
 }
