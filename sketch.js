@@ -28,7 +28,7 @@ function preload(){
   app2Img = loadImage("github.png");
   app3Img = loadImage("spotify.png");
   app4Img = loadImage("quizizz.png");
-  app5Img = loadImage("byju.jpg");
+  app5Img = loadImage("th (4).jfif");
   app6Img = loadImage("office.png");
   app7Img = loadImage("youtube.png");
   faker = loadImage("youtubent.png");
@@ -145,7 +145,7 @@ function draw() {
     window.location.href = "https://quizizz.com/admin"
   }
   if (mousePressedOver(app5)){
-    window.location.href = "https://code.byjusfutureschool.com/s/dashboard"
+    window.location.href = "kahoot.it"
   }
   if (mousePressedOver(app6)){
     window.location.href = "https://www.office.com/?auth=1"
