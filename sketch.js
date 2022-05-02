@@ -28,7 +28,7 @@ function preload(){
   app2Img = loadImage("github.png");
   app3Img = loadImage("spotify.png");
   app4Img = loadImage("quizizz.png");
-  app5Img = loadImage("th (4).jfif");
+  app5Img = loadImage("th-_4_-_1_ (1).png");
   app6Img = loadImage("office.png");
   app7Img = loadImage("youtube.png");
   faker = loadImage("youtubent.png");
