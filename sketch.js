@@ -78,7 +78,7 @@ function setup() {
   app4.scale = 1.5
   app5 = createSprite(width/2 - 200,height/2.2-40)
   app5.addImage(app5Img);
-  app5.scale = 0.2
+  app5.scale = 1
   app6 = createSprite(width/2 - 300,height/2.2-60)
   app6.addImage(app6Img);
   app6.scale = 0.5
@@ -145,7 +145,7 @@ function draw() {
     window.location.href = "https://quizizz.com/admin"
   }
   if (mousePressedOver(app5)){
-    window.location.href = "kahoot.it"
+    window.location.href = "https://kahoot.it"
   }
   if (mousePressedOver(app6)){
     window.location.href = "https://www.office.com/?auth=1"
