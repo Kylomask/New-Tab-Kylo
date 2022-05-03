@@ -78,7 +78,7 @@ function setup() {
   app4.scale = 1.5
   app5 = createSprite(width/2 - 200,height/2.2-40)
   app5.addImage(app5Img);
-  app5.scale = 1
+  app5.scale = 0.5
   app6 = createSprite(width/2 - 300,height/2.2-60)
   app6.addImage(app6Img);
   app6.scale = 0.5
